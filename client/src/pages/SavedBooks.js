@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
-import { gql } from '@apollo/client';
 
 //import apolloclient, removeBook from mutation, queries,
 import { getMe, deleteBook } from '../utils/API';
